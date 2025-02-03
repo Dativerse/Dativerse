@@ -1,7 +1,7 @@
 import { NavTitle } from "@/constant";
 import Image from "next/image";
 import React from "react";
-import { FiMail, FiDownload } from "react-icons/fi";
+import { FiMail, FiDownload, FiLinkedin, FiGithub } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
 import avatar from "../../../public/avatar.jpg";
 const HomeSection = () => {
@@ -36,6 +36,12 @@ const HomeSection = () => {
             </button>
             <button className="bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white px-6 py-3 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
               <FiMail className="inline mr-2" /> Contact Me
+            </button>
+            <button className="bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white px-6 py-3 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
+              <FiLinkedin className="inline" />{" "}
+            </button>
+            <button className="bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white px-6 py-3 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
+              <FiGithub className="inline" />{" "}
             </button>
           </div>
         </div>
